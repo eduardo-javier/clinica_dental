@@ -1,0 +1,254 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif,Arial, Helvetica;
+
+}
+
+body{
+    background: url(../img/cubes.png);
+}
+
+a{
+    color: #01B1EA;
+}
+
+a:visited{
+    color: #01B1EA; 
+}
+
+a:hover{
+    color:#555555;
+
+}
+
+#container{
+    width: 80%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px gray;
+    background: white;
+}
+
+#header{
+    height: 145px;
+
+    background: #F0F0F0;
+}
+
+#logo{
+    padding: 27px;
+    margin-left: 20;
+    float: left;
+}
+
+#logo img{
+    float: left;
+    height: 100px;
+}
+
+#logo a{
+    float: left;
+    font-size: 60px;
+    letter-spacing: 4px;
+    font-family: 'Open Sans',Arial, Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 25px;
+    text-shadow: 0px 2px 1px #222222;
+}
+
+#log a:hover{
+    text-shadow: 0px 2px 1px #222222, 0px 0px 4px #01B1EA;
+}
+
+#menu{
+
+    clear: both;
+    background: #222;
+    color: white;
+    height: 55px;
+    border-bottom: 4px solid #01B1EA;
+
+}
+
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 25px;
+}
+
+#menu ul li{
+    line-height: 55px;
+    float: left;
+    border-right: 1px solid #363636;
+}
+
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 13px;
+    padding-right: 13px;
+    transition: all 300ms;
+}
+
+#menu a:first-child{
+    border-left: 1px solid #363636;
+}
+
+#menu a:hover{
+    background: #01B1EA;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+width: 70%;
+padding: 10px;
+font-size: 10px;
+}
+
+#central{
+    width: 95%;
+    min-height: 500px;
+    float: right;
+    border-left: 1px solid #ccc;
+    box-shadow: -5px -1px 5px #ddd;
+    padding:25px;
+}
+
+#central h1{
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 0px;
+}
+.product{
+    width: 20%;
+    border:1px solid;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.product h2{
+    font-size: 20px;
+}
+
+
+label,
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+select{
+    display: block;
+    width: 75%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 26px;
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+select{
+    border: 1px solid #C9C9C9;
+    box-shadow: 0px 0px 2px #ccc inset;
+    background: white;
+    padding: 2px;
+    color: gray;
+    transition: all 300ms;
+    
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus{
+    border:1px solid #1579b5;
+    color:black;
+    
+}
+
+input[type="button"],
+input[type="submit"],
+button{
+    display: block;
+    border-radius: 2px;
+    width: auto;
+    padding:5px;
+    color: white;
+    background: #2979CD;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #11608E;
+    cursor: pointer;
+
+
+}
+
+label,input[type="button"],
+input[type="submit"],
+button{
+    display: block;
+    margin-top: 10px;
+}
+
+button, .button{
+    display: block;
+    border-radius: 2px;
+    width: auto;
+    padding:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white !important;
+    background: #33AE3d;
+    border:1px solid #11608E;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.product img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.product h2{
+    margin-bottom: 10px;
+}
+.product p{
+    margin-bottom: 10px;
+    color: #555;
+    font-weight: bold;
+}
+
+.alert_green{
+ color: green;
+}
+
+.alert_red{
+color: red;
+}
